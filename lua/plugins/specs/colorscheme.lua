@@ -8,7 +8,7 @@ return {
     'catppuccin/nvim',
     priority = 1000, -- Make sure to load this before all the other start plugins.
     opts = {
-      -- transparent_background = true,
+      transparent_background = true,
       flavour = 'mocha',
       -- You can choose: latte, frappe, macchiato, mocha
     },
