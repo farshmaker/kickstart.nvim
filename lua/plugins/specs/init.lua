@@ -14,4 +14,5 @@ return {
   require 'plugins.specs.conform',
   require 'plugins.specs.gitsigns',
   require 'plugins.specs.todo-comments',
+  require 'plugins.specs.metals',
 }

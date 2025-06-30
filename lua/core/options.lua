@@ -2,6 +2,7 @@
 -- See `:help vim.opt`
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
+
 vim.opt.fixendofline = true
 -- Make line numbers default
 vim.opt.number = true
@@ -66,3 +67,9 @@ vim.opt.scrolloff = 10
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
+
+-- for metal and dap
+vim.opt_global.completeopt = { 'menuone', 'noinsert', 'noselect' }
+
+-- Required for obsidian markdown rendering
+vim.opt.conceallevel = 2
